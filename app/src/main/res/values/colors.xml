@@ -1,0 +1,14 @@
+<resources>
+    <!-- Warna dasar bawaan -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- 💙 Tema biru cute -->
+    <color name="softBlueLight">#E3F2FD</color>  <!-- biru muda lembut -->
+    <color name="softBlue">#64B5F6</color>       <!-- biru pastel -->
+    <color name="softBlueDark">#1976D2</color>   <!-- biru tegas buat teks -->
+
+    <!-- Warna tambahan (kalem + netral) -->
+    <color name="backgroundLight">#FAFAFA</color>
+    <color name="cardShadow">#33000000</color>
+</resources>

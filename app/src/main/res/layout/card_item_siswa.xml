@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    android:backgroundTint="@color/white"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Icon edit -->
+        <ImageView
+            android:id="@+id/editButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/edit_24px"
+            android:tint="@color/softBlueDark"
+            android:contentDescription="Edit"
+            android:layout_marginTop="4dp" />
+
+        <!-- Icon hapus -->
+        <ImageView
+            android:id="@+id/deleteButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_toStartOf="@id/editButton"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/delete_24px"
+            android:tint="@color/softBlueDark"
+            android:contentDescription="Hapus"
+            android:layout_marginTop="4dp" />
+
+        <!-- Nama siswa -->
+        <TextView
+            android:id="@+id/namaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/softBlueDark"
+            android:layout_marginEnd="48dp" />
+
+        <!-- NISN -->
+        <TextView
+            android:id="@+id/nisnTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namaTextView"
+            android:layout_marginTop="6dp"
+            android:textSize="14sp"
+            android:textColor="@color/black" />
+
+        <!-- TTL -->
+        <TextView
+            android:id="@+id/ttlTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nisnTextView"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="@color/black" />
+
+        <!-- Jenis Kelamin -->
+        <TextView
+            android:id="@+id/jkTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ttlTextView"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="@color/black" />
+
+        <!-- Alamat -->
+        <TextView
+            android:id="@+id/alamatTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jkTextView"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
